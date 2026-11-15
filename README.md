@@ -4,8 +4,8 @@
 
 | 专栏 | 集数 | 行数 | 主题 |
 |---|---|---|---|
-| [软件架构师学习笔记](软件架构师学习笔记/00-合集总览.md) | 11 | ~15,900 | Redis / 微服务 / 云原生 / 三高架构 / 消息队列 / 边缘计算 / 区块链 |
-| [React18 学习笔记](React18学习笔记/00-合集总览.md) | 4 | ~4,300 | React18 核心语法 / 组件通信 / Hooks / TS 综合案例 |
+| [软件架构师](software-architect/00-合集总览.md) | 11 | ~15,900 | Redis / 微服务 / 云原生 / 三高架构 / 消息队列 / 边缘计算 / 区块链 |
+| [React18](react18/00-合集总览.md) | 4 | ~4,300 | React18 核心语法 / 组件通信 / Hooks / TS 综合案例 |
 
 ---
 
@@ -35,26 +35,26 @@
 
 | 集 | 文档 | 核心问题 |
 |---|---|---|
-| 01 | [Redis](软件架构师学习笔记/EP01-Redis-详细学习笔记.md) | 它是什么、为什么快、锁 / Lua / 队列 / 高可用 |
-| 02 | [Redis 高并发与秒杀实战](软件架构师学习笔记/EP02-Redis高并发与秒杀实战.md) | 一道软考真题串起超卖、乐观锁、Redis 策略 |
-| 03 | [微服务架构](软件架构师学习笔记/EP03-微服务架构.md) | 拆什么、怎么拆、拆完补什么 |
-| 04 | [云原生架构及应用](软件架构师学习笔记/EP04-云原生架构及应用.md) | Docker / K8s、五大原则、真实项目落地 |
-| 05 | [AI 大模型应用架构](软件架构师学习笔记/EP05-AI大模型应用架构.md) | RAG、Agent、护栏与生产化 |
-| 06 | [高并发架构](软件架构师学习笔记/EP06-高并发架构.md) | 缓存、限流、熔断、削峰、秒杀链路 |
-| 07 | [高可用架构](软件架构师学习笔记/EP07-高可用架构.md) | 几个 9、冗余、故障转移、雪崩三招 |
-| 08 | [高性能架构](软件架构师学习笔记/EP08-高性能架构.md) | 四把尺子、四宗罪、四板斧、RT 预算 |
-| 09 | [边缘计算架构](软件架构师学习笔记/EP09-边缘计算架构.md) | 端边云分层、冷热路径、断网自治 |
-| 10 | [区块链架构](软件架构师学习笔记/EP10-区块链架构.md) | 分布式账本、共识、联盟链落地 |
-| 11 | [消息队列](软件架构师学习笔记/EP11-消息队列.md) | 生产者 / 消费者 / Broker、可靠性与选型 |
+| 01 | [Redis](software-architect/EP01-Redis-详细学习笔记.md) | 它是什么、为什么快、锁 / Lua / 队列 / 高可用 |
+| 02 | [Redis 高并发与秒杀实战](software-architect/EP02-Redis高并发与秒杀实战.md) | 一道软考真题串起超卖、乐观锁、Redis 策略 |
+| 03 | [微服务架构](software-architect/EP03-微服务架构.md) | 拆什么、怎么拆、拆完补什么 |
+| 04 | [云原生架构及应用](software-architect/EP04-云原生架构及应用.md) | Docker / K8s、五大原则、真实项目落地 |
+| 05 | [AI 大模型应用架构](software-architect/EP05-AI大模型应用架构.md) | RAG、Agent、护栏与生产化 |
+| 06 | [高并发架构](software-architect/EP06-高并发架构.md) | 缓存、限流、熔断、削峰、秒杀链路 |
+| 07 | [高可用架构](software-architect/EP07-高可用架构.md) | 几个 9、冗余、故障转移、雪崩三招 |
+| 08 | [高性能架构](software-architect/EP08-高性能架构.md) | 四把尺子、四宗罪、四板斧、RT 预算 |
+| 09 | [边缘计算架构](software-architect/EP09-边缘计算架构.md) | 端边云分层、冷热路径、断网自治 |
+| 10 | [区块链架构](software-architect/EP10-区块链架构.md) | 分布式账本、共识、联盟链落地 |
+| 11 | [消息队列](software-architect/EP11-消息队列.md) | 生产者 / 消费者 / Broker、可靠性与选型 |
 
 ## React18（4 集）
 
 | 集 | 文档 | 核心内容 |
 |---|---|---|
-| 01 | [React18 核心语法](React18学习笔记/EP01-React18核心语法.md) | 组件与 JSX、条件/列表渲染、Fragment、事件、useState |
-| 02 | [组件通信与插槽](React18学习笔记/EP02-组件通信与插槽.md) | props、单向数据流、子传父、Context、Vue slot 对照 |
-| 03 | [React Hooks 速成](React18学习笔记/EP03-ReactHooks速成.md) | useReducer、useRef、useEffect、useMemo、useCallback |
-| 04 | [React + TS 综合案例](React18学习笔记/EP04-React与TS综合案例.md) | 从 0 搭 Todo：拆组件、定类型、状态归属 |
+| 01 | [React18 核心语法](react18/EP01-React18核心语法.md) | 组件与 JSX、条件/列表渲染、Fragment、事件、useState |
+| 02 | [组件通信与插槽](react18/EP02-组件通信与插槽.md) | props、单向数据流、子传父、Context、Vue slot 对照 |
+| 03 | [React Hooks 速成](react18/EP03-ReactHooks速成.md) | useReducer、useRef、useEffect、useMemo、useCallback |
+| 04 | [React + TS 综合案例](react18/EP04-React与TS综合案例.md) | 从 0 搭 Todo：拆组件、定类型、状态归属 |
 
 ---
 
