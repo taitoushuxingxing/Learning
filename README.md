@@ -6,6 +6,7 @@
 |---|---|---|---|
 | [软件架构师](software-architect/00-合集总览.md) | 11 | ~15,900 | Redis / 微服务 / 云原生 / 三高架构 / 消息队列 / 边缘计算 / 区块链 |
 | [React18](react18/00-合集总览.md) | 4 | ~4,300 | React18 核心语法 / 组件通信 / Hooks / TS 综合案例 |
+| [Agent 设计与工程化](agent/00-合集总览.md) | 4 | ~5,000 | Agent 架构总图 / 上下文分层 / Memory / Langfuse 评测闭环 |
 
 ---
 
@@ -55,6 +56,19 @@
 | 02 | [组件通信与插槽](react18/EP02-组件通信与插槽.md) | props、单向数据流、子传父、Context、Vue slot 对照 |
 | 03 | [React Hooks 速成](react18/EP03-ReactHooks速成.md) | useReducer、useRef、useEffect、useMemo、useCallback |
 | 04 | [React + TS 综合案例](react18/EP04-React与TS综合案例.md) | 从 0 搭 Todo：拆组件、定类型、状态归属 |
+
+---
+
+## Agent 设计与工程化（4 篇）
+
+| # | 文档 | 核心问题 | 时长 |
+|---|---|---|---|
+| 01 | [从零到一设计 Agent](agent/EP01-从零到一设计Agent.md) | 一个 Agent 由哪几层组成（8 层总图） | 21:07 |
+| 02 | [Agent 上下文分层管理](agent/EP02-Agent上下文分层管理.md) | 上下文放什么、何时清（L4） | 20:43 |
+| 03 | [Agent Memory 记忆管理](agent/EP03-AgentMemory记忆管理.md) | 过去的事怎么存、怎么取（L3） | 22:53 |
+| 04 | [用 Langfuse 搭建评测闭环](agent/EP04-用Langfuse搭建评测闭环.md) | 怎么证明它变好没变坏（L7） | 17:41 |
+
+前 3 篇同作者、递进成线；第 4 篇来自另一套 6 集系列，负责把设计变成可量化的数字。
 
 ---
 
